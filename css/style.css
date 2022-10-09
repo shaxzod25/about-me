@@ -1,0 +1,209 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: black;
+}
+
+.container {
+
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: "Inter-Bold", sans-serif;
+    /* font-weight: 700;*/
+    color: white;
+    text-decoration: none
+}
+
+.menu__link {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: "Inter-Regular", sans-serif;
+    /* font-weight: 400px; */
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    color: red;
+}
+
+.banner {
+    background: url(../img/Баннер.png);
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter-Bold", sans-serif;
+    flex-direction: column;
+    height: 100%;
+    gap: 150px;
+}
+.banner__heading {
+    font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.banner__btn {
+    border: none;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px 24px;
+    font-family: "Inter-Bold" , sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+}
+.aboutme {
+    background-color: black;
+    padding: 30px 0px 112px;
+    color: white;
+}
+.aboutme__heading {
+    text-align: center;
+    font-family: 'Inter-Bold';
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 48px;
+}
+.aboutme__warp {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.aboutme__decs {
+     max-width: 465px;
+} 
+.aboutme__h {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+.aboutme__p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #FFFFFF;
+}
+ 
+.work {
+    background: #5C6B81;
+    padding: 43px 0 70px;
+
+}
+
+.work__heading  {
+    font-family: "Inter-Bold";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+.card {
+    width: 312px;
+    height: 550px;
+    padding: 15px 15px 27px;
+    text-align: center;
+    background: red;
+    border-radius: 10px;
+}
+
+.card__body {
+    margin-top: 20px;
+    font-family: 'Inter-Bold';
+    font-weight: 700;
+}
+.card__heading {
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.card__text {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    font-family: 'Inter-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+padding: 8px 22px;
+ background: #FFFFFF;
+border-radius: 10px;
+border: none;
+}
+
+.work__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.footer {
+    background: #000000;
+    
+
+}
+.footer__h2 {
+    
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    
+    padding-top: 47px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: space-evenly;
+  padding-top: 34px;
+  padding-bottom: 62px;
+}
